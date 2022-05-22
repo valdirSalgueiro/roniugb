@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "gb.h": "c"
+        "gb.h": "c",
+        "tileset1_tiles.h": "c",
+        "tileset1_map.h": "c",
+        "sprite_tileset.h": "c"
     }
 }
