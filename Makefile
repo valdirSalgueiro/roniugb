@@ -1,7 +1,7 @@
 LCC	= /mnt/c/Users/valdi/pvt/gbdk-linux64/bin/lcc
 PNG2ASSET = /mnt/c/Users/valdi/pvt/gbdk-linux64/bin/png2asset
 
-CFLAGS	=
+CFLAGS	= -Wm-yc
 
 # Output name for compiled ROM
 BINS	   = game.gb

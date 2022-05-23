@@ -3,6 +3,8 @@
         "gb.h": "c",
         "tileset1_tiles.h": "c",
         "tileset1_map.h": "c",
-        "sprite_tileset.h": "c"
+        "sprite_tileset.h": "c",
+        "stdint.h": "c",
+        "metasprites.h": "c"
     }
 }

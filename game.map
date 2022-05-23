@@ -27,9 +27,9 @@ Area                       Addr        Size        Decimal Bytes (Attributes)
      00000006  l__HEADER |    00000007  l__HEADER |    00000008  l__HEADER
      0000000C  l__GSINIT |    00000028  l__DATA   |    00000030  l__HEADER
      0000004E  l__HEADER |    00000082  l__HEADER |    000001DB  l__HOME  
-     00000200  s__CODE   |    00000D79  l__CODE   |    00000F79  s__HOME  
-     00001154  s__BASE   |    00001154  s__CODE_0 |    00001154  s__INITIA
-     00001154  s__LIT    |    00001156  s__GSINIT |    00001162  s__GSFINA
+     00000200  s__CODE   |    00000F8D  l__CODE   |    0000118D  s__HOME  
+     00001368  s__BASE   |    00001368  s__CODE_0 |    00001368  s__INITIA
+     00001368  s__LIT    |    0000136A  s__GSINIT |    00001376  s__GSFINA
      00002000  _rROMB0   |    00003000  _rROMB1   |    00004000  _rRAMB   
      00008000  __VRAM    |    00008000  __VRAM800 |    00008800  __VRAM880
      00009000  __VRAM900 |    00009800  __SCRN0   |    00009C00  __SCRN1  
@@ -72,27 +72,30 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_CODE                  00000200    00000D79 =        3449. bytes (REL,CON)
+_CODE                  00000200    00000F8D =        3981. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
-     00000200  _main     |    0000036B  _level1_t |    0000036D  _level1_t
-     0000036F  _level1_t |    00000371  _level1_t |    00000373  _level1_t
-     00000375  _level1_m |    000004DD  _level1_t |    0000081D  _anim    
-     00000821  _death_an |    0000082C  ___func_s |    0000082C  _sprite_t
-     00000834  _sprite_t |    00000C04  _sprite_t |    00000C18  _sprite_t
-     00000C2C  _sprite_t |    00000C40  _sprite_t |    00000C54  _sprite_t
-     00000C68  _sprite_t |    00000C7C  _sprite_t |    00000C90  _sprite_t
-     00000CA4  _sprite_t |    00000CB8  _sprite_t |    00000CCC  _sprite_t
-     00000CE0  _sprite_t |    00000CF4  _sprite_t |    00000D08  _sprite_t
-     00000D1C  _sprite_t |    00000D30  _sprite_t |    00000D34  _sprite_t
-     00000D48  _sprite_t |    00000D5C  _sprite_t |    00000D70  _sprite_t
-     00000D84  _sprite_t |    00000D98  _sprite_t |    00000DAC  _sprite_t
-     00000DC0  _sprite_t |    00000DD4  _sprite_t |    00000DE8  _sprite_t
-     00000DFC  _sprite_t |    00000E10  _sprite_t |    00000E24  _sprite_t
-     00000E38  _sprite_t |    00000E4C  _sprite_t |    00000E60  _sprite_t
-     00000E6C  _sprite_t |    00000EAC  ___move_m |    00000EEB  .sgb_chec
-     00000EEB  _sgb_chec |    00000F33  _sgb_tran |    00000F38  .sgb_tran
+     00000200  _main     |    000003B4  _level1_t |    000003B6  _level1_t
+     000003B8  _level1_t |    000003BA  _level1_t |    000003BC  _level1_t
+     000003BE  _level1_m |    00000526  _level1_m |    0000068E  _level1_t
+     000009CE  _anim     |    000009D2  _death_an |    000009DD  _bg_palet
+     000009F5  ___func_s |    000009F5  _sprite_t |    000009FD  _sprite_t
+     00000DCD  _sprite_t |    00000DE1  _sprite_t |    00000DF5  _sprite_t
+     00000E09  _sprite_t |    00000E1D  _sprite_t |    00000E31  _sprite_t
+     00000E45  _sprite_t |    00000E59  _sprite_t |    00000E6D  _sprite_t
+     00000E81  _sprite_t |    00000E95  _sprite_t |    00000EA9  _sprite_t
+     00000EBD  _sprite_t |    00000ED1  _sprite_t |    00000EE5  _sprite_t
+     00000EF9  _sprite_t |    00000EFD  _sprite_t |    00000F11  _sprite_t
+     00000F25  _sprite_t |    00000F39  _sprite_t |    00000F4D  _sprite_t
+     00000F61  _sprite_t |    00000F75  _sprite_t |    00000F89  _sprite_t
+     00000F9D  _sprite_t |    00000FB1  _sprite_t |    00000FC5  _sprite_t
+     00000FD9  _sprite_t |    00000FED  _sprite_t |    00001001  _sprite_t
+     00001015  _sprite_t |    00001029  _sprite_t |    00001035  _sprite_t
+     00001075  _set_spri |    0000107A  _set_bkg_ |    0000107D  .set_pale
+     0000109C  _set_spri |    000010A1  _set_bkg_ |    000010A4  .set_pale
+     000010C0  ___move_m |    000010FF  .sgb_chec |    000010FF  _sgb_chec
+     00001147  _sgb_tran |    0000114C  .sgb_tran
 ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
 Hexadecimal  [32-Bits]
 
@@ -267,24 +270,24 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_HOME                  00000F79    000001DB =         475. bytes (REL,CON)
+_HOME                  0000118D    000001DB =         475. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
-     00000F79  .memset_s |    00000F82  .memcpy_s |    00000F9F  .remove_V
-     00000FA2  .remove_i |    00000FBF  .add_VBL  |    00000FC2  .add_int 
-     00000FCD  .wait_vbl |    00000FCD  _wait_vbl |    00000FDD  .display_
-     00000FDD  _display_ |    00000FF5  _remove_V |    00001000  _add_VBL 
-     0000100B  _set_tile |    00001010  _set_bkg_ |    00001010  _set_win_
-     00001018  _set_spri |    00001048  _joypad_i |    00001096  _joypad_e
-     0000109B  .joypad_e |    000010E6  _set_bkg_ |    000010FA  .set_xy_w
-     00001103  .set_xy_b |    00001112  .set_xy_t
+     0000118D  .memset_s |    00001196  .memcpy_s |    000011B3  .remove_V
+     000011B6  .remove_i |    000011D3  .add_VBL  |    000011D6  .add_int 
+     000011E1  .wait_vbl |    000011E1  _wait_vbl |    000011F1  .display_
+     000011F1  _display_ |    00001209  _remove_V |    00001214  _add_VBL 
+     0000121F  _set_tile |    00001224  _set_bkg_ |    00001224  _set_win_
+     0000122C  _set_spri |    0000125C  _joypad_i |    000012AA  _joypad_e
+     000012AF  .joypad_e |    000012FA  _set_bkg_ |    0000130E  .set_xy_w
+     00001317  .set_xy_b |    00001326  .set_xy_t
 ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
 Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_INITIALIZER           00001154    00000002 =           2. bytes (REL,CON)
+_INITIALIZER           00001368    00000002 =           2. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -293,17 +296,17 @@ Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_GSINIT                00001156    0000000C =          12. bytes (REL,CON)
+_GSINIT                0000136A    0000000C =          12. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
-     00001156  gsinit   
+     0000136A  gsinit   
 ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
 Hexadecimal  [32-Bits]
 
 Area                       Addr        Size        Decimal Bytes (Attributes)
 --------------------       ----        ----        ------- ----- ------------
-_GSFINAL               00001162    00000001 =           1. bytes (REL,CON)
+_GSFINAL               00001376    00000001 =           1. bytes (REL,CON)
 
         Value  Global            Value  Global            Value  Global    
         -----  ------            -----  ------            -----  ------    
@@ -347,14 +350,16 @@ Files Linked                              [ module(s) ]
 
 C:\Users\valdi\pvt\gbdk\lib/small/asxxxx/gb/crt0.o
                                           [ Runtime ]
-C:\Users\valdi\AppData\Local\Temp/lcc184760.o
+C:\Users\valdi\AppData\Local\Temp/lcc23040.o
                                           [ game ]
-C:\Users\valdi\AppData\Local\Temp/lcc184761.o
+C:\Users\valdi\AppData\Local\Temp/lcc23041.o
                                           [ sprite_tileset ]
 
 
 Libraries Linked                          [ object file ]
 
+C:\Users\valdi\pvt\gbdk\lib/small/asxxxx/gb/gb.lib
+                                          [ cgb_palettes.o ]
 C:\Users\valdi\pvt\gbdk\lib/small/asxxxx/gb/gb.lib
                                           [ set_data.o ]
 C:\Users\valdi\pvt\gbdk\lib/small/asxxxx/gb/gb.lib

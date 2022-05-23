@@ -1,0 +1,5 @@
+# ../superfamiconv/bin/superfamiconv -i level1.png -v -M gb -t level1gb.png.chr
+# ../superfamiconv/bin/superfamiconv -i level1.png -v -M gb -m level1gb.png.map
+# ../superfamiconv/bin/superfamiconv -i level1.png -F -M gb -p level1gb.png.pal
+../SuperFamiconv/bin/superfamiconv -v -M gbc -F --in-image level1.png --out-tiles level1.chr  -p level1.pal --out-map level1.map 
+
